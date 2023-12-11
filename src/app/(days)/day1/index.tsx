@@ -6,7 +6,9 @@ const DayDetailScreen = () => {
   return (
     <View>
       <Stack.Screen options={{ title: "Day 1" }} />
-      <Text>DayDetailScreen</Text>
+      <Text style={{ fontFamily: "AmaticBold", fontSize: 100 }}>
+        Day Detail Screen
+      </Text>
     </View>
   );
 };
